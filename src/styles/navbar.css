@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    min-height: 50px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 1.0875rem;
+    color: black;
+}
+
+.link {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.link:hover {
+    color: #1a73e8;
+}
+
+.profile-icon {
+    display: flex;
+    margin-left: auto;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.profileIcon:hover {
+    box-shadow:1px 1px #1a73e8;
+}
